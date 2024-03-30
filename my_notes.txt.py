@@ -12,3 +12,4 @@ with open("my_notes.txt", "r") as file:
     print("Contenido del archivo my_notes.txt:")
     for line in file.readlines():
         print(line.strip())
+
